@@ -1,0 +1,19 @@
+---
+theVar: "defined in _layouts/default.html"
+---
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    {% include header.html %}
+    <div class="page-content">
+      <div class="wrapper">
+        <p><small>Jekyll version {{ jekyll.version }}</small></p>
+        {{ content }}
+        <h2>From _layout/default.html</h2>
+        {% include variables.html %}
+      </div>
+    </div>
+    {% include footer.html %}
+  </body>
+</html>

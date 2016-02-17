@@ -1,0 +1,11 @@
+<h3>Page variables</h3>
+<p>page.layout : {{ page.layout }}</p>
+<p>page.theVar : {{ page.theVar }}</p>
+
+<h3>Layout variables</h3>
+{% if layout %}
+<p>layout.layout : {{ layout.layout }}</p>
+<p>layout.theVar : {{ layout.theVar }}</p>
+{% else %}
+<p>NO <strong>layout</strong> variable available !</p>
+{% endif %}

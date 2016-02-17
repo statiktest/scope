@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Test"
+date:   2016-02-15
+theVar: "defined in _posts/myonlypost"
+---
+<h2>From {{ page.url }}</h2>
+{% include variables.html %}
