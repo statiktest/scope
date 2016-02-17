@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Test"
+title:  "Test post"
 date:   2016-02-15
-theVar: "defined in _posts/myonlypost"
+theVar: "defined in _posts/test-post.hmtl"
 ---
 <h2>From {{ page.url }}</h2>
 {% include variables.html %}
